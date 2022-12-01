@@ -1,4 +1,5 @@
-# 동빈나 이코테 상하좌우
+# 동빈나 이코테 상하좌우 이동 문제
+
 n = int(input())
 data = input().split()
 
