@@ -2,7 +2,7 @@
 
 n = input()
 index = int(n[1])
-column = int(ord(n[0])) - int(ord('a')) +1
+column = int(ord(n[0])) - int(ord('a')) +1  #아스키 코드 숫자로 변환 
 total = 0
 
 move = [ (-2,-1),(-2,1) , (2,-1),(2,1) , (-1,-2),(-1,2) , (1,-2),(1,2) ]

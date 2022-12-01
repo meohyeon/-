@@ -6,7 +6,7 @@ answer = []
 total = 0
 
 for i in n:
-    if i.isalpha():
+    if i.isalpha():   #isalpha 문자/숫자 체크 
         answer.append(i)
     else:
         total += int(i)
